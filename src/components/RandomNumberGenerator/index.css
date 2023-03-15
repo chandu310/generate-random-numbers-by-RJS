@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.main-container {
+  min-height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-container {
+  text-align: center;
+  font-family: 'Roboto';
+  background-color: #e4ebf3;
+  min-height: 45vh;
+  padding: 20px;
+  border-radius: 15px;
+}
+h1 {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+}
+p {
+  color: #333333;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+button {
+  background-color: #0b69ff;
+  border-radius: 5px;
+  height: 35px;
+  width: 100px;
+  color: #ffffff;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+}
+.counter {
+  color: #0b69ff;
+  font-size: 30px;
+  font-weight: bold;
+}
